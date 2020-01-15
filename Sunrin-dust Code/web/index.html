@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sunrin-Dust</title>
+        <style>
+            html,body{background-image: url("src/city.jpg"); background-size: cover; margin: 0; padding: 0; height: 100%;}
+                .section{width: 100%; height: 90%; float: left;}
+                .footer{width: 100%; height: 10%; text-align: center; float: left;}
+            #t_color{color: white;}
+        </style>
+        <script>
+            function sundust(){
+                location.replace("sunrin-dust.html");
+                /*
+                location.href("sunrin-dust.html");
+                history.go(-1); 
+                location.reload();  
+                */
+            }
+        </script>
+    </head>
+    <body onclick="sundust()">
+        <section class="section"></section>
+        <br>
+        <footer class="footer">
+            <p id="t_color">A photograph of unsplash.com/@u66kie</p>
+        </footer>
+    </body>
+</html>
